@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;900&display=swap" rel="stylesheet">
+        <style>
+        .notes_h{
+            display:flex;
+            justify-content: center;
+            position: relative;
+            margin-top:40px;
+        }
+        .notes_h h3{
+            margin-top:40px ;
+            margin-right:15px ;
+            font-family: Mulish;
+            font-weight: bolder;
+            text-transform: capitalize;
+            text-decoration: underline;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.301);
+        }
+        .image_child{
+            margin-left:60px;
+        }
+        .design1{
+            display: flex;
+            margin-top: 0px;
+        }
+        #talkbubble {
+            width: 100%;
+            height: auto;
+            background: #C9DADF;
+            margin-top: 100px;
+            margin-left: 55px;
+            position: relative;
+        }
+        #talkbubble:before {
+            content: "";
+            position: absolute;
+            right: 100%;
+            top: 81px;
+            width: 0;
+            height: 0;
+            border-bottom: 50px solid #C9DADF;
+            border-left: 50px solid transparent;
+        }
+        #talkbubble p{
+            font-family: Mulish;
+            font-weight: normal;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.301);
+            font-size: 25px;
+            width:80%;
+            margin-bottom: 0px;
+            margin-left: 30px;
+        }
+        #talkbubble p:first-child{
+            margin-top:8px
+        }
+
+        /* Media queries for tablets */
+        @media only screen and (max-width: 768px) {
+            .notes_h {
+                flex-direction: row;
+                align-items: center;
+            }
+         
+           
+            #talkbubble {
+                margin-top: 60px;
+                margin-left: 0px;
+                width: 600px;
+height: 230px;
+            }
+            .bubbletext p{
+                font-size: 4px;
+            }
+        }
+
+
+            </style>
+            
+</head>
+<body>
+    <div class="notes_h">
+  
+        <h3 class="notes_section">Notes Section</h3>
+        <img style="padding-bottom: 10px;"src="../images/book.jpg" alt="" >
+    </div >
+    <div class="design1">
+      <img class="image_child"src="../images/2.jpg" alt="">
+      <div id="talkbubble">
+        <div class="bubbletext">
+        <p>Hey there intellectuals, This is your friendly neighborhood Kaleb !</p>
+         <p> If it isn't obvious from the title, in this section you'll find all the necessary stuff you need to help you get on track with your studies.</p>
+        </div></div>
+    </div>
+</body>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"
+></script>
+</html>
