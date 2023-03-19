@@ -1,0 +1,122 @@
+body{
+    background-image: url('../images/Group\ 144.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}.nav-background {
+  background-color: #2E56BC;
+  background-size: cover;
+  
+  padding-bottom:0px ;
+
+  /* Workaround for some mobile browsers */
+  min-height: 100%;}
+
+.navbar-brand{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.301);
+    margin-top: 20px;
+    font-family: Mulish;
+    font-size:34px;
+    font-style:bold;
+    font-weight: 900px;
+    font-weight: bolder;
+  
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.container-fluid img{
+  width: 25.09px;
+    height: 52.8006px;
+    margin-left: 8px;
+}
+.navbar-nav{
+  font-family: Mulish;
+  line-height: 23.34px;
+  letter-spacing: 0em;
+  margin-right: 10px;
+  
+ }
+ .navbar-nav li {
+  margin-left: 100px;
+}
+
+
+.navbar-nav a {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.301);
+  color: #fff;
+  text-decoration:solid;
+  font-size: 20px;
+  font-weight:600;
+  text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+}
+#navbar-text{
+  text-align: end;
+}
+  
+  .sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Set the height of the container to 100% of the viewport height */
+    font-family:Lexend Deca;     
+  }
+  
+  form {
+    margin-top: 20px; /* Add some space between the heading and the form */
+  }
+  
+  .input1 {
+    margin: 15px 0; /* Add some space between the input fields */
+    padding: 15px;
+    
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    width: 300px;
+    max-width: 100%;
+    background-color:#B4E9F1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  ::placeholder{
+    color: black;
+    opacity: 1;
+  }
+  
+  input[type="button"] {
+   
+    color: black;
+    padding: 15px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color:#B4E9F1;
+    max-width: 100%;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.525), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  input[type="button"]:hover {
+    background-color:#386fe6;
+  }
+.sign h1{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.301);
+    color: #fff;
+    text-decoration:solid;
+    font-size: 50px;
+    font-weight:60;
+  
+    transition: color 0.2s ease-in-out;
+}
+.sign p{
+  color: #fff;
+  text-decoration:solid;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.301);
+  position: relative;
+  width: auto;
+  height: 19px;
+  
+}
